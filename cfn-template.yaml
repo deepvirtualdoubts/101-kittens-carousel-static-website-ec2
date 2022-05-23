@@ -6,11 +6,11 @@ Resources:
   ABE:
       Type: AWS::EC2::Instance
       Properties:
-        ImageId: ami-0022f774911c1d690
+        ImageId: ami-0022f774911c1d690 
         InstanceType: t2.micro
         KeyName: firstkey
         SecurityGroups:
-        - SSH-HTTP-HTTPS
+        - Project-101-kittens-carousel-static-website-ec2-SSH-HTTPS-HTTP-ALL
         Tags:
         - Key: Name
           Value: Project-101-kittens-carousel-static-website-ec2-SSH-HTTPS-HTTP-ALL
