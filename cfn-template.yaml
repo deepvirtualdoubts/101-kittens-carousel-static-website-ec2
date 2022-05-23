@@ -10,10 +10,10 @@ Resources:
         InstanceType: t2.micro
         KeyName: firstkey
         SecurityGroups:
-        - Project-101-kittens-carousel-static-website-ec2-SSH-HTTPS-HTTP-ALL
+        - Kitten Carousel
         Tags:
         - Key: Name
-          Value: Project-101-kittens-carousel-static-website-ec2-SSH-HTTPS-HTTP-ALL
+          Value: Kitten Carousel
         UserData:
           Fn::Base64: 
             !Sub |
